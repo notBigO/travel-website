@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust</title>
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main content -->
+    <main>
+        <section id="introduction">
+            <h1>Welcome to Wanderlust</h1>
+            <p>Discover the best travel destinations and book your dream vacation with us!</p>
+        </section>
+
+        <!-- dummy destinations -->
+        <section id="top-destinations">
+            <h2>Top Destinations</h2>
+            <ul>
+                <li>
+                    <img src="paris.jpg" alt="Paris">
+                    <p>Paris, France - The city of love and lights.</p>
+                </li>
+                <li>
+                    <img src="tokyo.jpg" alt="Tokyo">
+                    <p>Tokyo, Japan - A blend of tradition and modernity.</p>
+                </li>
+                <li>
+                    <img src="new-york.jpg" alt="New York">
+                    <p>New York, USA - The city that never sleeps.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- some dummy packages -->
+        <section id="travel-packages">
+            <h2>Travel Packages</h2>
+            <table>
+                <tr>
+                    <th>Package Name</th>
+                    <th>Destination</th>
+                    <th>Price</th>
+                    <th>Duration</th>
+                </tr>
+                <tr>
+                    <td>Paris Getaway</td>
+                    <td>Paris, France</td>
+                    <td>$1200</td>
+                    <td>7 Days</td>
+                </tr>
+                <tr>
+                    <td>Tokyo Adventure</td>
+                    <td>Tokyo, Japan</td>
+                    <td>$1500</td>
+                    <td>10 Days</td>
+                </tr>
+                <tr>
+                    <td>New York Explorer</td>
+                    <td>New York, USA</td>
+                    <td>$1000</td>
+                    <td>5 Days</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="booking-form">
+            <h2>Book Your Trip</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="paris">Paris</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="new-york">New York</option>
+                </select><br><br>
+
+                <label>Travel Class:</label>
+                <input type="radio" id="economy" name="class" value="economy">
+                <label for="economy">Economy</label>
+                <input type="radio" id="business" name="class" value="business">
+                <label for="business">Business</label>
+                <input type="radio" id="first-class" name="class" value="first-class">
+                <label for="first-class">First Class</label><br><br>
+
+                <label>Add-ons:</label>
+                <input type="checkbox" id="insurance" name="add-ons" value="insurance">
+                <label for="insurance">Insurance</label>
+                <input type="checkbox" id="meal-plan" name="add-ons" value="meal-plan">
+                <label for="meal-plan">Meal Plan</label><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow us on:</p>
+        <a href="https://facebook.com">Facebook</a> |
+        <a href="https://twitter.com">Twitter</a> |
+        <a href="https://instagram.com">Instagram</a>
+    </footer>
+</body>
+
+</html>
